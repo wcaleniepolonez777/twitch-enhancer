@@ -1,0 +1,31 @@
+.te-system-message {
+    .chat-line__message-highlight {
+        display: none !important;
+    }
+
+    .chat-line__message-container .chat-line__timestamp,
+    .chat-line__message--badges,
+    .chat-line__username,
+    span[aria-hidden='true'] {
+        display: none !important;
+    }
+
+    .chat-line__reply-icon,
+    .chat-line__reply-icon button {
+        display: none !important;
+    }
+
+    .message {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.5rem;
+        background-color: rgb(116, 23, 255);
+        border-radius: 1rem;
+        padding: 0 0.75rem;
+        font-weight: bold;
+    }
+
+    display: flex;
+    justify-content: center;
+}
